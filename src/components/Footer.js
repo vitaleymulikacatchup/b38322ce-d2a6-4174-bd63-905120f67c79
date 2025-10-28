@@ -1,0 +1,31 @@
+import React from 'react';
+
+function Footer() {
+  return (
+    <footer className="bg-white py-8 px-4 border-t border-gray-200">
+      <div className="max-w-4xl mx-auto">
+        <div className="text-center text-sm text-cf-gray">
+          <span>Cloudflare Ray ID: </span>
+          <span className="font-mono">995a08a3ba14eecf</span>
+          <span className="mx-2">•</span>
+          <span>Your IP: </span>
+          <button className="text-cf-blue hover:underline">
+            Click to reveal
+          </button>
+          <span className="mx-2">•</span>
+          <span>Performance & security by </span>
+          <a 
+            href="https://cloudflare.com" 
+            className="text-cf-blue hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cloudflare
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
